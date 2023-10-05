@@ -65,8 +65,6 @@ textarea {
   color: white;
   height: 5px;
   width: 5px;
-  
-  
 }
 
 .saveBtn i:hover {
@@ -78,6 +76,7 @@ textarea {
   display: flex;
   flex-direction: row;
   margin: 5px 5px 5px 5px;
+  justify-content: space-between;
   
 }
 .container {
@@ -87,6 +86,7 @@ textarea {
 .inputBox {
   width: 1200px;
   background-color: #d3d3d3;
+  margin-right: 10px;
 }
 
 .time {
