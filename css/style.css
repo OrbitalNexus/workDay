@@ -63,9 +63,39 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  height: 5px;
+  width: 5px;
+  
+  
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 5px 5px 5px;
+  
+}
+.container {
+  background-color: #06aed5;
+}
+
+.inputBox {
+  width: 1200px;
+  background-color: #d3d3d3;
+}
+
+.time {
+  font-size: 32px;
+  align-self: center;
+  padding-right: 10px;
+  
+}
+
+#timeShort p {
+ margin-right: 10px;
 }
